@@ -35,6 +35,8 @@ raadtools augments data in R code only. It does this by
   - using `raster::flip()` where needed
   - using `raster::rotate()` where needed, this is much more efficient
     via VRT depending on the ultimate target
+  - multipler proper raster files as tiles in one larger one
+    (e.g. GEOID)
   - other weird cases …
 
 In theory we could parameterize the VRT creation, but that’s more lofty
@@ -90,6 +92,12 @@ There’s oisst\_pacific.vrt and oisst\_atlantic.vrt, the former merely
 has the SRS added and the latter has two window sources, to flip from
 Pacific view (0,360 longitude) to Atlantic view (-180, 180). (There’s no
 flip needed so there’s no warp with transform negation. )
+
+GEOID
+
+This is currently a funny case as it’s composed of multiple source
+files, so to fit the sprintf templating here we need that parameterized
+out.
 
 ## Example
 
