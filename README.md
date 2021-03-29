@@ -78,6 +78,12 @@ from the bottom. The files need the projected transform applied, and the
 SRS because it’s not recorded (only there are longlat arrays), but also
 to warp with the y-negation to flip.
 
+AMSRE
+
+This is very similar to the CERSAT case, but the source has no longlat
+arrays to fool tools with, it’s purely in index space (so needs
+flipping, applying extent and SRS the same).
+
 OISST
 
 There’s oisst\_pacific.vrt and oisst\_atlantic.vrt, the former merely
