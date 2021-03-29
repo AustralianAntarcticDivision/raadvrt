@@ -1,0 +1,20 @@
+Package: raadvrt
+Title: VRT Versions of 'raadtools' Data Sources (VRT: GDAL Virtual Raster)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Provides VRT (virtual raster) versions of data sources in raadtools. VRT augments data sources that don't provide 
+ sufficient metadata, common cases include missing geotransform, projection string, and array orientation. VRT can be used to 
+ rectify/augment these missing pieces while avoid any explicit data reformatting, and a VRT string can be passed as a source
+ to GDAL's 'warping' machinery for reprojection, reading at scale, and subsetting. VRT can be created for any given file or 
+ subdataset, but because the numbers of files can be large we store them parameterized and generate on demand in various ways for
+ different time steps and subdatasets. 
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

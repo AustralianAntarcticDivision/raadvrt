@@ -1,0 +1,51 @@
+<VRTDataset rasterXSize="304" rasterYSize="448"> 
+  <VRTRasterBand dataType="Byte" band="1" subClass="VRTRawRasterBand"> 
+    <SourceFilename relativetoVRT="1">%s</SourceFilename> 
+    <ImageOffset>300</ImageOffset> 
+    <PixelOffset>1</PixelOffset> 
+    <LineOffset>304</LineOffset> 
+  </VRTRasterBand> 
+  <SRS>
+  PROJCRS["unknown",
+    BASEGEOGCRS["unknown",
+        DATUM["unknown",
+            ELLIPSOID["unknown",6378273,298.279411123064,
+                LENGTHUNIT["metre",1,
+                    ID["EPSG",9001]]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8901]]],
+    CONVERSION["unknown",
+        METHOD["Polar Stereographic (variant B)",
+            ID["EPSG",9829]],
+        PARAMETER["Latitude of standard parallel",70,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8832]],
+        PARAMETER["Longitude of origin",-45,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8833]],
+        PARAMETER["False easting",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["(E)",south,
+            MERIDIAN[90,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[1],
+            LENGTHUNIT["metre",1,
+                ID["EPSG",9001]]],
+        AXIS["(N)",south,
+            MERIDIAN[180,
+                ANGLEUNIT["degree",0.0174532925199433,
+                    ID["EPSG",9122]]],
+            ORDER[2],
+            LENGTHUNIT["metre",1,
+                ID["EPSG",9001]]]]
+  </SRS>
+    <GeoTransform> -3.8375000000000000e+06,  2.5000000000000000e+04,  0.0000000000000000e+00,  5.8375000000000000e+06,  0.0000000000000000e+00, -2.5000000000000000e+04</GeoTransform>
+ 
+</VRTDataset>

@@ -1,0 +1,11 @@
+<VRTDataset rasterXSize="316" rasterYSize="332"> 
+<SRS dataAxisToSRSAxisMapping="1,2">PROJCS["unknown",GEOGCS["unknown",DATUM["unknown",SPHEROID["unknown",6378273,298.279411123064]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-70],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]</SRS>
+<GeoTransform> -3.9500000000000000e+06,  2.5000000000000000e+04,  0.0000000000000000e+00,  4.3500000000000000e+06,  0.0000000000000000e+00, -2.5000000000000000e+04</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1" subClass="VRTRawRasterBand"> 
+    <SourceFilename relativetoVRT="0">%s</SourceFilename> 
+    <ImageOffset>300</ImageOffset> 
+    <PixelOffset>1</PixelOffset> 
+    <LineOffset>316</LineOffset> 
+</VRTRasterBand> 
+
+</VRTDataset>
