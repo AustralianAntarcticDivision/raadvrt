@@ -21,8 +21,7 @@ WHY
   - VRT can be used by other systems (QGIS, Manifold, raster, terra,
     stars)
 
-In theory we could parameterize the VRT creation, but that’s lofty and
-this gets us heaps of leverage over raadtools itself, because currently
+This gets us heaps of leverage over raadtools itself, because currently
 raadtools augments data in R code only. It does this by
 
   - using raster to read netcdf (which uses ncdf4)
@@ -30,6 +29,9 @@ raadtools augments data in R code only. It does this by
     `raster::crs()`, `raster::extent()`)
   - using `raster::flip()` where needed
   - other weird cases …
+
+In theory we could parameterize the VRT creation, but that’s more lofty
+and no one else cares it seems.
 
 These fixes are R-only, not communicable to users of other systems,
 can’t be streamed through GDAL itself, or through other R GDAL

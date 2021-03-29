@@ -29,12 +29,14 @@ WHY
 - can GDALwarp a VRT (so we can get any layer we want in any projection/grid on-demand)
 - VRT can be used by other systems (QGIS, Manifold, raster, terra, stars)
 
-In theory we could parameterize the VRT creation, but that's lofty and this gets us heaps of leverage over raadtools itself, because currently raadtools augments data in R code only. It does this by 
+This gets us heaps of leverage over raadtools itself, because currently raadtools augments data in R code only. It does this by 
 
 * using raster to read netcdf (which uses ncdf4)
 * applying known geotransforms and/or crs when needed (using `raster::crs()`, `raster::extent()`)
 * using `raster::flip()` where needed
 * other weird cases ...
+
+In theory we could parameterize the VRT creation, but that's more lofty and no one else cares it seems. 
 
 These fixes are R-only, not communicable to users of other systems, can't be streamed through GDAL itself, or through other R GDAL wrappers. We won't give up on our raadtools ways (they are still better some of the time), but we get to choose when streaming through GDALwarp is the better approach. 
 
