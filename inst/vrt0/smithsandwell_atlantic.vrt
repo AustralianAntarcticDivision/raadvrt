@@ -1,0 +1,32 @@
+<VRTDataset rasterXSize="21600" rasterYSize="17280">
+  <SRS>PROJCS["unnamed",
+    GEOGCS["Normal Sphere (r=6370997)",
+  DATUM["unknown",
+  SPHEROID["sphere",6370997,0]],
+  PRIMEM["Greenwich",0],
+  UNIT["degree",0.0174532925199433]],
+  PROJECTION["Mercator_1SP"],
+  PARAMETER["central_meridian",0],
+  PARAMETER["scale_factor",1],
+  PARAMETER["false_easting",0],
+  PARAMETER["false_northing",0]]</SRS>
+  <GeoTransform>-20037510.000, 1.8553250000000000e+003, 0.0000000000000000e+000, 1.5987768000000000e+007, 0.0000000000000000e+000,-1.8504359999999999e+003</GeoTransform>
+  <Metadata />
+  <VRTRasterBand dataType="Int16" band="1">
+  <Metadata />
+  <SimpleSource>
+  <SourceFilename relativeToVRT="1">topo_18.1.vrt</SourceFilename>
+  <SourceBand>1</SourceBand>
+  <SourceProperties RasterXSize="21600" RasterYSize="17280" DataType="Int16" BlockXSize="21600" BlockYSize="1" />
+  <SrcRect xOff="10800" yOff="0" xSize="10800" ySize="17280" />
+  <DstRect xOff="0" yOff="0" xSize="10800" ySize="17280" />
+  </SimpleSource>
+  <SimpleSource>
+  <SourceFilename relativeToVRT="1">topo_18.1.vrt</SourceFilename>
+  <SourceBand>1</SourceBand>
+  <SourceProperties RasterXSize="21600" RasterYSize="17280" DataType="Int16" BlockXSize="21600" BlockYSize="1" />
+  <SrcRect xOff="0" yOff="0" xSize="10800" ySize="17280" />
+  <DstRect xOff="10800" yOff="0" xSize="10800" ySize="17280" />
+  </SimpleSource>
+  </VRTRasterBand>
+  </VRTDataset>

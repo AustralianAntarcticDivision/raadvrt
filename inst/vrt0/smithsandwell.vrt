@@ -1,0 +1,24 @@
+<VRTDataset rasterXSize="21600" rasterYSize="17280">
+  <GeoTransform>0.0, 1855.325, 0.0000000000000000e+000, 15987768, 0.0000000000000000e+000,-1850.436</GeoTransform>
+  <SRS>PROJCS["unnamed",
+  GEOGCS["Normal Sphere (r=6370997)",
+  DATUM["unknown",
+  SPHEROID["sphere",6370997,0]],
+  PRIMEM["Greenwich",0],
+  UNIT["degree",0.0174532925199433]],
+  PROJECTION["Mercator_1SP"],
+  PARAMETER["central_meridian",0],
+  PARAMETER["scale_factor",1],
+  PARAMETER["false_easting",0],
+  PARAMETER["false_northing",0]]</SRS>
+  <Metadata />
+  <VRTRasterBand dataType="Int16" band="1" subClass="VRTRawRasterBand">
+  <Metadata />
+  <SourceFilename relativeToVRT="1">../topo_18.1.img</SourceFilename>
+  <SourceBand>1</SourceBand>
+  <ImageOffset>0</ImageOffset>
+  <PixelOffset>2</PixelOffset>
+  <LineOffset>43200</LineOffset>
+  <ByteOrder>MSB</ByteOrder>
+  </VRTRasterBand>
+</VRTDataset>

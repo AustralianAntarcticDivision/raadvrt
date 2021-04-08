@@ -1,0 +1,124 @@
+<VRTDataset rasterXSize="36000" rasterYSize="17999">
+  <GeoTransform> -1.8e+02,  1.00000000e-02,  0.0000000000000000e+00,  9.0e+01,  0.0000000000000000e+00, -1.0e-03</GeoTransform>
+  <Metadata>
+    <MDI key="analysed_sst#add_offset">298.15</MDI>
+    <MDI key="analysed_sst#comment">"Final" version using Multi-Resolution Variational Analysis (MRVA) method for interpolation</MDI>
+    <MDI key="analysed_sst#coordinates">lon lat</MDI>
+    <MDI key="analysed_sst#long_name">analysed sea surface temperature</MDI>
+    <MDI key="analysed_sst#scale_factor">0.001</MDI>
+    <MDI key="analysed_sst#source">AMSRE-REMSS, AVHRR_Pathfinder-PFV5.2-NODC_day, AVHRR_Pathfinder-PFV5.2-NODC_night, MODIS_T-JPL, iQUAM-NOAA/NESDIS, Ice_Conc-OSISAF</MDI>
+    <MDI key="analysed_sst#standard_name">sea_surface_foundation_temperature</MDI>
+    <MDI key="analysed_sst#units">kelvin</MDI>
+    <MDI key="analysed_sst#valid_max">32767</MDI>
+    <MDI key="analysed_sst#valid_min">-32767</MDI>
+    <MDI key="analysed_sst#_FillValue">-32768</MDI>
+    <MDI key="lat#axis">Y</MDI>
+    <MDI key="lat#comment">none</MDI>
+    <MDI key="lat#long_name">latitude</MDI>
+    <MDI key="lat#standard_name">latitude</MDI>
+    <MDI key="lat#units">degrees_north</MDI>
+    <MDI key="lat#valid_max">90</MDI>
+    <MDI key="lat#valid_min">-90</MDI>
+    <MDI key="lon#axis">X</MDI>
+    <MDI key="lon#comment">none</MDI>
+    <MDI key="lon#long_name">longitude</MDI>
+    <MDI key="lon#standard_name">longitude</MDI>
+    <MDI key="lon#units">degrees_east</MDI>
+    <MDI key="lon#valid_max">180</MDI>
+    <MDI key="lon#valid_min">-180</MDI>
+    <MDI key="NC_GLOBAL#acknowledgment">Please acknowledge the use of these data with the following statement:  These data were provided by JPL under support by NASA MEaSUREs program.</MDI>
+    <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+    <MDI key="NC_GLOBAL#comment">MUR = "Multi-scale Ultra-high Reolution"</MDI>
+    <MDI key="NC_GLOBAL#Conventions">CF-1.5</MDI>
+    <MDI key="NC_GLOBAL#creator_email">ghrsst@podaac.jpl.nasa.gov</MDI>
+    <MDI key="NC_GLOBAL#creator_name">JPL MUR SST project</MDI>
+    <MDI key="NC_GLOBAL#creator_url">http://mur.jpl.nasa.gov</MDI>
+    <MDI key="NC_GLOBAL#date_created">20150819T103929Z</MDI>
+    <MDI key="NC_GLOBAL#easternmost_longitude">180</MDI>
+    <MDI key="NC_GLOBAL#file_quality_level">1</MDI>
+    <MDI key="NC_GLOBAL#gds_version_id">2.0</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.01 degrees</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_units">degrees north</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.01 degrees</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_units">degrees east</MDI>
+    <MDI key="NC_GLOBAL#history">created at nominal 4-day latency; replaced nrt (1-day latency) version.</MDI>
+    <MDI key="NC_GLOBAL#id">MUR-JPL-L4-GLOB-v04.1</MDI>
+    <MDI key="NC_GLOBAL#institution">Jet Propulsion Laboratory</MDI>
+    <MDI key="NC_GLOBAL#keywords">Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</MDI>
+    <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+    <MDI key="NC_GLOBAL#license">These data are available free of charge under data policy of JPL PO.DAAC.</MDI>
+    <MDI key="NC_GLOBAL#Metadata_Conventions">Unidata Observation Dataset v1.0</MDI>
+    <MDI key="NC_GLOBAL#metadata_link">http://podaac.jpl.nasa.gov/ws/metadata/dataset/?format=iso&amp;shortName=MUR-JPL-L4-GLOB-v04.1</MDI>
+    <MDI key="NC_GLOBAL#naming_authority">org.ghrsst</MDI>
+    <MDI key="NC_GLOBAL#netcdf_version_id">4.1</MDI>
+    <MDI key="NC_GLOBAL#northernmost_latitude">90</MDI>
+    <MDI key="NC_GLOBAL#platform">Aqua, DMSP, NOAA-POES, Suomi-NPP, Terra</MDI>
+    <MDI key="NC_GLOBAL#processing_level">L4</MDI>
+    <MDI key="NC_GLOBAL#product_version">04.1</MDI>
+    <MDI key="NC_GLOBAL#project">NASA Making Earth Science Data Records for Use in Research Environments (MEaSUREs) Program</MDI>
+    <MDI key="NC_GLOBAL#publisher_email">ghrsst-po@nceo.ac.uk</MDI>
+    <MDI key="NC_GLOBAL#publisher_name">GHRSST Project Office</MDI>
+    <MDI key="NC_GLOBAL#publisher_url">http://www.ghrsst.org</MDI>
+    <MDI key="NC_GLOBAL#references">http://podaac.jpl.nasa.gov/Multi-scale_Ultra-high_Resolution_MUR-SST</MDI>
+    <MDI key="NC_GLOBAL#sensor">AMSR-E, AVHRR, MODIS, SSM/I, VIIRS, in-situ</MDI>
+    <MDI key="NC_GLOBAL#source">AMSRE-REMSS, AVHRR_Pathfinder-PFV5.2-NODC_day, AVHRR_Pathfinder-PFV5.2-NODC_night, MODIS_T-JPL, iQUAM-NOAA/NESDIS, Ice_Conc-OSISAF</MDI>
+    <MDI key="NC_GLOBAL#southernmost_latitude">-90</MDI>
+    <MDI key="NC_GLOBAL#spatial_resolution">0.01 degrees</MDI>
+    <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Metadata Convention</MDI>
+    <MDI key="NC_GLOBAL#start_time">20020601T090000Z</MDI>
+    <MDI key="NC_GLOBAL#stop_time">20020601T090000Z</MDI>
+    <MDI key="NC_GLOBAL#summary">A merged, multi-sensor L4 Foundation SST analysis product from JPL.</MDI>
+    <MDI key="NC_GLOBAL#time_coverage_end">20020601T210000Z</MDI>
+    <MDI key="NC_GLOBAL#time_coverage_start">20020531T210000Z</MDI>
+    <MDI key="NC_GLOBAL#title">Daily MUR SST, Final product</MDI>
+    <MDI key="NC_GLOBAL#uuid">27665bc0-d5fc-11e1-9b23-0800200c9a66</MDI>
+    <MDI key="NC_GLOBAL#westernmost_longitude">-180</MDI>
+    <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+    <MDI key="NETCDF_DIM_time_DEF">{1,4}</MDI>
+    <MDI key="NETCDF_DIM_time_VALUES">675766800</MDI>
+    <MDI key="time#axis">T</MDI>
+    <MDI key="time#comment">Nominal time of analyzed fields</MDI>
+    <MDI key="time#long_name">reference time of sst field</MDI>
+    <MDI key="time#standard_name">time</MDI>
+    <MDI key="time#units">seconds since 1981-01-01 00:00:00 UTC</MDI>
+  </Metadata>
+  <Metadata domain="GEOLOCATION">
+    <MDI key="LINE_OFFSET">0</MDI>
+    <MDI key="LINE_STEP">1</MDI>
+    <MDI key="PIXEL_OFFSET">0</MDI>
+    <MDI key="PIXEL_STEP">1</MDI>
+    <MDI key="SRS">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</MDI>
+    <MDI key="X_BAND">1</MDI>
+    <MDI key="X_DATASET">NETCDF:"/rdsi/PUBLIC/raad/data/podaac-opendap.jpl.nasa.gov/opendap/allData/ghrsst/data/GDS2/L4/GLOB/JPL/MUR/v4.1/2002/152/20020601090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc":lon</MDI>
+    <MDI key="Y_BAND">1</MDI>
+    <MDI key="Y_DATASET">NETCDF:"/rdsi/PUBLIC/raad/data/podaac-opendap.jpl.nasa.gov/opendap/allData/ghrsst/data/GDS2/L4/GLOB/JPL/MUR/v4.1/2002/152/20020601090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc":lat</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Int16" band="1">
+    <Metadata>
+      <MDI key="add_offset">298.15</MDI>
+      <MDI key="comment">"Final" version using Multi-Resolution Variational Analysis (MRVA) method for interpolation</MDI>
+      <MDI key="coordinates">lon lat</MDI>
+      <MDI key="long_name">analysed sea surface temperature</MDI>
+      <MDI key="NETCDF_DIM_time">675766800</MDI>
+      <MDI key="NETCDF_VARNAME">analysed_sst</MDI>
+      <MDI key="scale_factor">0.001</MDI>
+      <MDI key="source">AMSRE-REMSS, AVHRR_Pathfinder-PFV5.2-NODC_day, AVHRR_Pathfinder-PFV5.2-NODC_night, MODIS_T-JPL, iQUAM-NOAA/NESDIS, Ice_Conc-OSISAF</MDI>
+      <MDI key="standard_name">sea_surface_foundation_temperature</MDI>
+      <MDI key="units">kelvin</MDI>
+      <MDI key="valid_max">32767</MDI>
+      <MDI key="valid_min">-32767</MDI>
+      <MDI key="_FillValue">-32768</MDI>
+    </Metadata>
+    <NoDataValue>-32768</NoDataValue>
+    <UnitType>kelvin</UnitType>
+    <Offset>298.15</Offset>
+    <Scale>0.001</Scale>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">%s</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36000" RasterYSize="17999" DataType="Int16" BlockXSize="36000" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="36000" ySize="17999" />
+      <DstRect xOff="0" yOff="0" xSize="36000" ySize="17999" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
