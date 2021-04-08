@@ -33,10 +33,11 @@ raadtools augments data in R code only. It does this by
   - applying known geotransforms and/or crs when needed (using
     `raster::crs()`, `raster::extent()`)
   - using `raster::flip()` where needed
+  - examples include polar data stored with longlat arrays, or old
+    Mercator grids stored with latitude vector
   - using `raster::rotate()` where needed, this is much more efficient
     via VRT depending on the ultimate target
-  - multipler proper raster files as tiles in one larger one
-    (e.g. GEOID)
+  - multiple proper raster files as tiles in one larger one (e.g. GEOID)
   - other weird cases …
 
 In theory we could parameterize the VRT creation, but that’s more lofty
@@ -95,9 +96,14 @@ flip needed so there’s no warp with transform negation. )
 
 GEOID
 
-This is currently a funny case as it’s composed of multiple source
+We use VRT currently, a funny case as it’s composed of multiple source
 files, so to fit the sprintf templating here we need that parameterized
 out.
+
+SMITH and SANDWELL
+
+Another example where we use VRT currently, because Mercator grid in raw
+binary.
 
 ## Example
 

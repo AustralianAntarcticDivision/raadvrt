@@ -39,8 +39,9 @@ This gets us heaps of leverage over raadtools itself, because currently raadtool
 * using raster to read netcdf (which uses ncdf4)
 * applying known geotransforms and/or crs when needed (using `raster::crs()`, `raster::extent()`)
 * using `raster::flip()` where needed
+* examples include polar data stored with longlat arrays, or old Mercator grids stored with latitude vector
 * using `raster::rotate()` where needed, this is much more efficient via VRT depending on the ultimate target
-* multipler proper raster files as tiles in one larger one (e.g. GEOID)
+* multiple proper raster files as tiles in one larger one (e.g. GEOID)
 * other weird cases ...
 
 In theory we could parameterize the VRT creation, but that's more lofty and no one else cares it seems. 
@@ -86,7 +87,11 @@ There's oisst_pacific.vrt and oisst_atlantic.vrt, the former merely has the SRS 
 
 GEOID
 
-This is currently a funny case as it's composed of multiple source files, so to fit the sprintf templating here we need that parameterized out. 
+We use VRT currently, a funny case as it's composed of multiple source files, so to fit the sprintf templating here we need that parameterized out. 
+
+SMITH and SANDWELL
+
+Another example where we use VRT currently, because Mercator grid in raw binary. 
 
 ## Example
 
